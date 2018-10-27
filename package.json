@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinzokoo/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinzokoo/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/chinzokoo/liri-node-app#readme",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "line-reader": "^0.4.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0",
+    "tracer": "^0.9.2"
+  }
+}

@@ -1,0 +1,37 @@
+2018-10-27T16:16:12-0700 <log> liri.js:131 () Song searched for: dont cry
+2018-10-27T16:16:12-0700 <error> liri.js:133 () Sorry, invalid request.
+ERROR: StatusCodeError: 400 - {"error":"invalid_client","error_description":"Invalid client"}
+2018-10-27T16:17:06-0700 <log> liri.js:117 (displayMovieInfo) Movie: Matrix
+Year: 1993–
+IMDB Rating: 8.2
+Rotten Tomatoes Rating: Information Unavailable
+Country: Canada
+Language: English
+Plot: Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
+Actors: Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon
+2018-10-27T16:17:37-0700 <log> liri.js:47 () Command to execute: nodespotify-this-song I Want it That Way
+2018-10-27T16:17:37-0700 <log> liri.js:47 () Command to execute: movie-this The Dark Knight
+2018-10-27T16:17:37-0700 <log> liri.js:117 (displayMovieInfo) Movie: The Dark Knight
+Year: 2008
+IMDB Rating: 9.0
+Rotten Tomatoes Rating: 94%
+Country: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+2018-10-27T16:20:42-0700 <log> liri.js:47 () Command to execute: nodespotify-this-song I Want it That Way
+2018-10-27T16:20:42-0700 <error> liri.js:59 (executeLIRI) ERROR: Please enter a valid command line argument (and parameter)
+Valid command line arguments and parameters:
+	concert-this
+	spotify-this-song '<song name here>'
+	movie-this '<movie name here>'
+	do-what-it-says
+2018-10-27T16:20:42-0700 <log> liri.js:47 () Command to execute: movie-this The Dark Knight
+2018-10-27T16:20:42-0700 <log> liri.js:117 (displayMovieInfo) Movie: The Dark Knight
+Year: 2008
+IMDB Rating: 9.0
+Rotten Tomatoes Rating: 94%
+Country: USA, UK
+Language: English, Mandarin
+Plot: When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+Actors: Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
